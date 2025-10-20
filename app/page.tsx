@@ -26,7 +26,7 @@ export default function HomePage() {
 
   const expertLevels = [
     { 
-      title: 'Global Expert', 
+      title: 'Global Experts', 
       description: 'Industry leaders with 20+ years of international experience across multiple continents and major projects',
       icon: Award
     },
@@ -54,7 +54,7 @@ export default function HomePage() {
       icon: Briefcase
     },
     {
-      title: 'Contract Assurance',
+      title: 'Commercial/Contract Assurance',
       description: 'Expert contract review, negotiation support, and compliance management',
       icon: CheckCircle
     },
@@ -73,9 +73,9 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-24">
             <div className="flex items-center">
               <img 
-                src="https://i.postimg.cc/gJZNxbSQ/gaesee-logo.png" 
+                src="/gaesee-logo.png" 
                 alt="GAESEE" 
-                className="h-20 w-auto"
+                className="h-28 w-auto"
               />
             </div>
 
@@ -132,7 +132,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=2400')",
+            backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1563119161-64882e934373?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed'
@@ -147,12 +147,12 @@ export default function HomePage() {
             </div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-              Bridging Africa's Energy<br />
+              Bridging Africa's Energy (Sector)<br />
               <span className="text-emerald-400">Expertise Gap</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-slate-200 mb-12 leading-relaxed max-w-3xl">
-              Connecting indigenous oil and gas companies with world-class verified experts across Africa. Building local capacity. Driving operational excellence.
+              Connecting Africa Indigeneous oil and gas companies with world-class verified experts across Africa. Building local capacity. Driving operational excellence.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6">
@@ -197,10 +197,10 @@ export default function HomePage() {
                 Empowering Africa's Energy Future
               </h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                As foreign oil companies gradually exit or transfer operations to indigenous firms across Nigeria and Africa, a critical expertise gap has emerged. Many local companies find themselves unprepared for the complex technical demands of managing large-scale oil and gas operations.
+                As foreign oil companies gradually exit or transfer operations to indigenous firms across Nigeria and Africa, a critical expertise gap has emerged. Many Nigerian/African energy and extractive operatoring companies find themselves unprepared for the complex technical demands of managing large-scale oil and gas operations.
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                GAESEE is the first centralized, verifiable platform connecting African energy companies with global experts. We provide access to world-class professionals across all disciplines, ensuring operational excellence and industry compliance.
+                GAESEE is the first centralized, verifiable platform connecting African energy companies with global experts. We provide access to world-class professionals across all disciplines, ensuring operational excellence and industry compliance. Experts are available on projects and assignment basis. For audting and assurance or advisory role.
               </p>
               
               <div className="grid sm:grid-cols-2 gap-6 mb-8">
@@ -246,12 +246,12 @@ export default function HomePage() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=600" 
+                  src="https://images.unsplash.com/photo-1721554146444-379243d27942?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171" 
                   alt="Oil Refinery"
                   className="rounded-lg shadow-xl w-full h-64 object-cover"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?q=80&w=600" 
+                  src="https://images.unsplash.com/photo-1722183704200-e96339975ba4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" 
                   alt="Offshore Platform"
                   className="rounded-lg shadow-xl w-full h-64 object-cover mt-8"
                 />
@@ -279,14 +279,14 @@ export default function HomePage() {
               Comprehensive Energy Sector Coverage
             </h2>
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-              From upstream exploration to downstream distribution, we provide expert support across all oil and gas operations
+              From upstream exploration to downstream distribution,We provide experts across all petroleum, energy and extrative projects and operations.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="group relative overflow-hidden rounded-xl h-96">
               <img 
-                src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?q=80&w=800" 
+                src="https://images.unsplash.com/photo-1704839531639-6cc24e1034be?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=627" 
                 alt="Offshore Operations"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -302,7 +302,7 @@ export default function HomePage() {
 
             <div className="group relative overflow-hidden rounded-xl h-96">
               <img 
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800" 
+                src="https://images.unsplash.com/photo-1593583810872-ddee4d6bd55a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" 
                 alt="Pipeline Infrastructure"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -318,7 +318,7 @@ export default function HomePage() {
 
             <div className="group relative overflow-hidden rounded-xl h-96">
               <img 
-                src="https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=800" 
+                src="https://images.unsplash.com/photo-1624771002998-4aadfd43e7c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1064" 
                 alt="Drilling Operations"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -341,7 +341,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <span className="text-emerald-600 font-bold text-sm uppercase tracking-wider">Expert Categories</span>
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mt-4 mb-6">
-              Three Tiers of Excellence
+              Three Tiers of Expertise
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               Access precisely the right level of expertise for your project requirements
@@ -427,7 +427,7 @@ export default function HomePage() {
         <div 
           className="absolute inset-0"
           style={{
-            backgroundImage: "linear-gradient(rgba(5, 150, 105, 0.95), rgba(6, 95, 70, 0.95)), url('https://images.unsplash.com/photo-1566228015668-4c45dbc4e2f5?q=80&w=2000')",
+            backgroundImage: "linear-gradient(rgba(5, 150, 105, 0.95), rgba(6, 95, 70, 0.95)), url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2000')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed'
@@ -441,13 +441,13 @@ export default function HomePage() {
           <p className="text-xl md:text-2xl text-emerald-100 mb-12 max-w-3xl mx-auto">
             Join GAESEE today and connect with Africa's largest network of verified oil and gas professionals
           </p>
-          <Link 
-            href="/register"
+          <button 
+            onClick={() => window.location.href = '#register'}
             className="inline-flex items-center bg-white hover:bg-slate-100 text-emerald-700 px-12 py-6 rounded-md font-bold text-xl transition-all shadow-2xl"
           >
-            <span>Register Your Profile</span>
+            <span>Submit Registration Request</span>
             <ArrowRight className="ml-3 w-6 h-6" />
-          </Link>
+          </button>
           <p className="mt-8 text-emerald-100 text-lg">
             Powered by <span className="font-bold">Aberdeen Commercial</span>
           </p>
@@ -460,7 +460,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-2">
               <img 
-                src="https://i.postimg.cc/gJZNxbSQ/gaesee-logo.png" 
+                src="/gaesee-logo.png" 
                 alt="GAESEE" 
                 className="h-20 w-auto mb-6"
               />
